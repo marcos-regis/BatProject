@@ -230,4 +230,8 @@ span {
         grid-template-columns: 1fr;
         margin-top: 100px;
     }
+    
+    .card {
+        padding: 0 0 20px 0px;
+    }
 }
