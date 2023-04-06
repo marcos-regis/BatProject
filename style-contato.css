@@ -169,4 +169,8 @@ span {
     input[type="submit"] {
         margin-left: 0px;
     }
+
+    .contact-content {
+        width: 70%;
+    }
 }
