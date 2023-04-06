@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: #D21617;
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin-top: 30px;
+    text-shadow: 0px 4px 20px #D21617;
+    font-size: 30px;
+}
+
+.comments-container {
+    display: flex;
+    margin-top: 70px;
+    justify-content: center;
+}
+
+.comments-content {
+    width: 70%;
+    display: grid;
+    row-gap: 40px;
+}
+
+.comment {
+    background-color: black;
+    border: 2px solid #5c0a0a;
+    border-radius: 5px;
+    display: flex;
+}
+
+.new-comment-container {
+    display: none;
+}
+
+/* .new-comment-container {
+    display: flex;
+    justify-content: center;
+}
+
+.new-comment-content {
+    width: 70%;
+    justify-content:end;
+}
+
+.new-comment {
+    margin-top: 50px;
+    height: 150px;
+}
+
+.new-comment-text {
+    color: #ffffff;
+    margin: 30px 0px 0px 30px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.send {
+    width: 100px;
+    height: 50px;
+    background-color: #D21617;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.send:hover {
+    background-color: #ffffff;
+    color: #000;
+} */
+
+.profile {
+    background-color: #0000;
+    border-radius: 5px;
+}
+
+.pic {
+    width: 150px;
+    height: 150px;
+    margin: 30px 0px 10px 30px;
+    background-size: cover;
+    border-radius: 5px;
+    border: 2px solid #D21617
+}
+
+.pic-1 {
+    background-image: url("https://s4.static.brasilescola.uol.com.br/be/conteudo/images/2-albert-einstein.jpg");
+}
+
+.pic-2 {
+    background-image: url("https://iconografiadahistoria.com.br/wp-content/uploads/2021/01/IMG-20210102-WA0068-684x445.jpg");
+    background-position: 50%;
+    background-size: 180%;
+
+}
+
+.pic-3 {
+    background-image: url("https://viajento.files.wordpress.com/2016/05/mona-lisa-leonardo-da-vinci-rosto.jpg?w=1200");
+    background-position-x: -20px;
+}
+
+.u-text {
+    font-family:'Kdam Thmor Pro', sans-serif;
+    color: #ffffff;
+    background-color: #0000;
+    margin: 0px 0px 5px 30px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.u-rate {
+    margin-bottom: 25px;
+}
+
+.text {
+    color: #ffffff;
+    margin: 30px 30px 30px 30px;
+    font-family:'Kdam Thmor Pro', sans-serif;
+    background-color: #0000;
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: white;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+.footer-navigation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .comment {
+        display: grid;
+    }
+
+    .profile {
+        display: grid;
+        justify-content: center;
+        margin: 0px 0px 0px -30px;
+    }
+
+    .u-rate {
+        margin-bottom: -10px;
+    }
+}
