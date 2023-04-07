@@ -144,25 +144,7 @@ span {
     align-items: center;
 }
 
-@media(max-width: 475px){
-    .footer-navigation {
-        display: block;
-    }
-
-    nav {
-        display: none;
-    }
-
-    .elenco-cards-content {
-        grid-template-columns: 1fr;
-        margin-top: 0px;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-@media(max-width: 1024px){
+@media(max-width: 876px){
     .footer-navigation {
         display: block;
     }
@@ -179,5 +161,23 @@ span {
     h1 {
         text-align: center;
     }
+}
 
+@media(max-width: 456px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .elenco-cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 0px;
+    }
+
+    h1 {
+        text-align: center;
+    }
 }
