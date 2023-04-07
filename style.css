@@ -232,6 +232,6 @@ span {
     }
     
     .card {
-        padding: 0 0 20px 0px;
+        margin-left: -5px;
     }
 }
